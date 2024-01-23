@@ -8,10 +8,21 @@ body, div, h1, h2, p {
 .container1, .container2, .container3, .container4, .footer {
     display: flex;
     border: 3px solid purple;
+    flex-direction: column;
+    position: relative;
 }
 .header {
+    display: flex;
     background-color: orange;
     width: 100%;
     height: auto;
+    justify-content: space-between;
+    align-items: center;
 }
-
+.logo, .right {
+    margin: 1% 5% 0 1%;
+}
+.c1image {
+    width: 100%;
+    object-fit: cover;
+}
